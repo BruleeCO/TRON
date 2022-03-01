@@ -43,7 +43,12 @@ body:
         - Apogaea
         - Other 10 Principle Event
         - Outside Brulee 
-  
+  - type: textarea
+    id: resolution
+    attributes:
+      label: What resolution do you think is appropriate?
+    validations:
+      required: true 
   - type: checkboxes
     id: terms
     attributes:
